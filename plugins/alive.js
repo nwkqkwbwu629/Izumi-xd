@@ -38,6 +38,6 @@ command(
 var speed = end - start;
  
 await new Promise(t => setTimeout(t,0))
-         await message.client.sendMessage(message.jid,{text:`*Hey Izumi is Alive * 🧚‍♂️Speed:
+         await message.client.sendMessage(message.jid,{text:`*Hey Izumi is Alive* 🧚‍♂️Speed:
 ${speed} *ms*` , edit: key});
 })
