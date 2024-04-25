@@ -57,27 +57,17 @@ Xasena
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
  
-
-### External-Plugins
-
-<details close>
-<summary>Read More</summary>
-
-<br>
-
-
-* [`External PLUGINS`](###)
-
-### Thanks To
+ 
+#### IZUMI SUPPORT 
 
 <details close>
 <summary>Read More</summary>
-
+   <br,>
 <br>
+<a href="https://chat.whatsapp.com/KHvcGD7aEUo8gPocJsYXZe"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+    <br>
+<br>
+<a href='https://github.com/IRON-M4N/Jarvis-MD-Plugins' target="_blank"><img alt='jarvis-md' src='https://img.shields.io/badge/EXPLUGIN-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
-* [`Badan sir`](https://github.com/Kingbadan321)
-
-* [`Louis-X0`](https://github.com/Louis-X0)
-
-
- </details>
+#### THANKS TO
+- [ Louis-XD❤️](https://github.com/Louis-XD) <br>
