@@ -228,18 +228,18 @@ Description: ${i.desc}\`\`\``);
         .split(",");
         let usern = message.pushName
         const readMore = String.fromCharCode(8206).repeat(4001);
-      let menu = `\n╔┉┉┉〔 ${BOT_INFO.split(";")[0]} 〕┉┉┉┉┉⚇
-    ╔┅┅┅┅┅┅┅┅┅┅┅┅⚅
-  ✵ ┋ *OWNER*: ${BOT_INFO.split(";")[1]}
-  ✵ ┋ *USER*: ${usern}
-  ✵ ┋ *DATE*: ${date}
-  ✵ ┋ *TIME*: ${time}
-  ✵ ┋ *COMMANDS*: ${plugins.commands.length}
-  ✵ ┋ *MODE*: ${config.WORK_TYPE}
-  ✵ ┋ *PREFIX*: ${config.HANDLERS}
-  ✵ ┋ *VERSION*: ${require("../package.json").version}
-    ╚┅┅┅┅┅┅┅┅┅┅┅┅⚅
-╚┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉⚇\n ${readMore}\n╔┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄⛒`;
+      let menu = `\n╭━━━〔 ${BOT_INFO.split(";")[0]} 〕━━━┈
+    ╭──────────────
+  ❖ │  *OWNER*: ${BOT_INFO.split(";")[1]}
+  ❖ │  *USER*: ${usern}
+  ❖ │  *DATE*: ${date}
+  ❖ │  *TIME*: ${time}
+  ❖ │  *COMMANDS*: ${plugins.commands.length}
+  ❖ │  *MODE*: ${config.WORK_TYPE}
+  ❖ │  *PREFIX*: ${config.HANDLERS}
+  ❖ │  *VERSION*: ${require("../package.json").version}
+    ╰──────────────
+╰━━━━━━━━━━━━━━━┈\n ${readMore}`
 
       let cmnd = [];
       let cmd;
@@ -259,28 +259,28 @@ Description: ${i.desc}\`\`\``);
       });
       cmnd.sort();
       category.sort().forEach((cmmd) => {
-        menu += `\n   ╔─────────────┈⚆`;
-        menu += `\n   ❁┊  ❲ *${cmmd.toUpperCase()}* ❳`;
-        menu += `\n   ╚┬────────────┈⚆`
-        menu += `\n   ╔┴────────────┈⚆`;
+        menu += `\n ╭─────────────┈⚆`;
+        menu += `\n  │ 「 *${cmmd.toUpperCase()}* 」`;
+        menu += `\n ╰┬────────────┈⚆`
+        menu += `\n ╭┴────────────┈⚆`;
         let comad = cmnd.filter(({ type }) => type == cmmd);
         comad.forEach(({ cmd }) => {
-          menu += `\n   ❁  ${cmd.trim()}`;
+          menu += `\n❆  ${cmd.trim()}`;
         });
-        menu += `\n   ╚─────────────┈⚆`;
+        menu += `\n ╰─────────────┈⚆`;
       });
-menu += `\n╚┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄⛒`;
+menu += `\n\n𝗜𝗭𝗨𝗠𝗜-𝗫𝗗`;
       let penu = tiny(menu)
-      let vd = BOT_INFO.split(";")[2];
-      return await message.sendFromUrl(vd, {fileLength: "500000000", gifPlayback: true, contextInfo: {
-      mentionedJid: [m.sender],
-      forwardingScore: 999,
-      isForwarded: true,
-      forwardedNewsletterMessageInfo: {
-      newsletterJid: '120363239634100086@newsletter',
-      newsletterName: "𝗜𝗭𝗨𝗠𝗜 𝗫𝗗🧚‍♂️",
-      serverMessageId: -1
-            }}, caption: (penu)}, {quoted: message })
+      let img = config.BOT_INFO.split(';')[2]
+      return await message.sendFromUrl(img, {fileLength: "5555544444", gifPlayback: true, contextInfo: { externalAdReply: {
+title: "𝗜𝗭𝗨𝗠𝗜🧚‍♂️",
+body: "",
+sourceUrl: "",
+mediaUrl: "",
+mediaType: 1,
+showAdAttribution: true,
+renderLargerThumbnail: false,
+thumbnailUrl: "https://i.imgur.com/Qh1AEV0.jpeg" }}, caption: (penu)}, {quoted: message })
     }
 }catch(e){
 message.reply(e)
