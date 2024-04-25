@@ -339,7 +339,7 @@ X-Asena - X-Electra
 
 command(
   {
-    pattern: "plugin ?(.*)",
+    pattern: "install ?(.*)",
     fromMe: true,
     desc: "Install External plugins",
     type:'user'
