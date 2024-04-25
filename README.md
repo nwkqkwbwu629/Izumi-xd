@@ -35,14 +35,14 @@ Xasena
 
 ***
 ### Deploy
-
-1. If You don't have a account in Heroku Create a account.
+***
+* If You don't have a account in Heroku Create a account.
     <br>
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 
-
-2. Now Deploy
+***
+* Now Deploy
     <br>
 <a href='https://heroku.com/deploy?template=https://github.com/sataniceypz/Izumi-xd' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
@@ -56,18 +56,10 @@ Xasena
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
- 
- 
-#### IZUMI SUPPORT 
-
-<details close>
-<summary>Read More</summary>
-   <br,>
-<br>
-<a href="https://chat.whatsapp.com/KHvcGD7aEUo8gPocJsYXZe"><img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
-    <br>
-<br>
-<a href='https://github.com/IRON-M4N/Jarvis-MD-Plugins' target="_blank"><img alt='jarvis-md' src='https://img.shields.io/badge/EXPLUGIN-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+***
+* EXTERNAL-PLUGINS
+     <br>
+<a href='https://github.com/sataniceypz/IZUMI-EXPLUGINS' target="_blank"><img alt='Izumi-xd' src='https://img.shields.io/badge/EXPLUGIN-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=black'/></a>
 
 #### THANKS TO
 - [ Louis-XD❤️](https://github.com/Louis-XD) <br>
