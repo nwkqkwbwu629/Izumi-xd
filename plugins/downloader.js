@@ -14,7 +14,7 @@ command(
         type: "downloader",
     },
     async (message, match) => {
-        if (!match) return await message.sendMessage("*_Need Song Name Or Url_*");
+        if (!match) return await message.sendMessage("*_Bruh send with Name or Url_*");
 var res = await axios.get(`https://api-viper-x.koyeb.app/api/song?name=${match}`)
 var song = res.data
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${song.data.title}_*` },{ quoted: message})
@@ -33,7 +33,7 @@ command(
         type: "downloader",
     },
     async (message, match) => {
-        if (!match) return await message.sendMessage("*_Need a Video Name_*");
+        if (!match) return await message.sendMessage("*_Bruh,Send with video name example: .video Izumi_*");
 let {result} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/yt_video?search=${match}`);
 await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.title}_*` },{ quoted: message})
 return await message.sendFromUrl(result.url, { caption: `*${result.title}*` }, {quoted: message })
@@ -49,7 +49,7 @@ command(
         type: "downloader",
     },
     async (message, match, client) => {
-        if (!isUrl(match)) return await message.reply("*_Need YouTube Url_*");
+        if (!isUrl(match)) return await message.reply("*_aree noobde where is Youtube Video Url_*");
 let Ytd = await ytmp3(match);
 await message.client.sendMessage(message.jid, {audio: Ytd.buffer, mimetype: "audio/mpeg"}, { quoted: message }, "audio");
 });
@@ -105,7 +105,7 @@ command(
         type: "downloader",
     },
     async (message, match) => {
-        if (!isUrl(match)) return await message.reply("*_Need YouTube Url_*");
+        if (!isUrl(match)) return await message.reply("*_aree noobde where is Youtube Video Url_*");
 let Ytd = await ytmp4(match, "134");
 await message.sendFromUrl(Ytd.videoUrl, { caption: (X.CAPTION) }, {quoted: message })
 });
@@ -182,7 +182,7 @@ command(
     },
     async (message, match, m) => {
 match = match || message.reply_message.text;
-	if(!match) return await message.reply("*_Need Spotify Url_*");
+	if(!match) return await message.reply("*_Bruh send with spotify Url_*");
 let buff = (await getJson(`https://api.maher-zubair.tech/download/spotify?url=${match}`)).result.url
 await message.sendFromUrl(buff, {quoted: message})
 })
@@ -214,7 +214,7 @@ command(
   },
   async (message, match) => {
     match = match || message.reply_message.text
-   if (!match)return message.reply(`*_Need instagram Link_*`)
+   if (!match)return message.reply(`*_Send With Instagram Url_*`)
 let {data} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/igdl?url=${match}`)
 await message.sendFromUrl(`${data[0].url}`, {caption: "*Izumi🧚‍♂️*"})
 });
@@ -250,7 +250,7 @@ command(
         type: "downloader",
     },
     async (message, match) => {
-        if (!isUrl(match)) return await message.sendMessage("*_Need Pinterest Url_*");
+        if (!isUrl(match)) return await message.sendMessage("*_Bruh where is Pinterest Url_*");
 var {result} = await getJson(`https://api.lokiser.xyz/api/pinterestdl?link=${match}`)
 await message.sendFromUrl(result.LokiXer.url,{ caption: (X.CAPTION) }, {quoted: message})
     }
