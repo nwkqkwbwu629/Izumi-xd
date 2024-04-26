@@ -39,7 +39,6 @@ await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.ti
 return await message.sendFromUrl(result.url, { caption: `*${result.title}*` }, {quoted: message })
     });
 
-// Zeta-XD 
 
 command(
     {
