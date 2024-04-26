@@ -3,9 +3,9 @@
   "description": "IZUMI-XD Multi Device whatsapp bot",
   "logo": "https://i.imgur.com/Uc0uIkO.jpeg",
   "keywords": ["whatsapp"],
-  "repository": "https://github.com/sataniceypz/Izumi-xd",
-  "website": "https://github.com/sataniceypz/Izumi-xd",
-  "success_url": "https://github.com/sataniceypz/Izumi-xd",
+  "repository": "https://github.com/sataniceypz/Izumi-v2",
+  "website": "https://github.com/sataniceypz/Izumi-v2",
+  "success_url": "https://github.com/sataniceypz/Izumi-v2",
   "stack": "container",
   "env": {
     "SESSION_ID": {
