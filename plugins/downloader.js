@@ -23,7 +23,7 @@ await message.client.sendMessage(message.jid, { audio :zeta,  mimetype:"audio/mp
     }
     );
 
-// ZETA BRO //
+// IZUMI XD //
 
 command(
     {
@@ -39,7 +39,7 @@ await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.ti
 return await message.sendFromUrl(result.url, { caption: `*${result.title}*` }, {quoted: message })
     });
 
-// Zeta-XD 
+// Izumi-XD 
 
 command(
     {
@@ -95,7 +95,7 @@ async function ytmp3(url) {
     }
 };
 
-// ZETA BRO //
+// IZUMI XD //
 
 command(
     {
@@ -171,7 +171,7 @@ async function ytmp4(query, quality = 134) {
     }
 }
 
-// Zeta-XD 
+// Izumi-xd 
 
 command(
     {
@@ -216,9 +216,9 @@ command(
     match = match || message.reply_message.text
    if (!match)return message.reply(`*_Need instagram Link_*`)
 let {data} = await getJson(`https://api-aswin-sparky.koyeb.app/api/downloader/igdl?url=${match}`)
-await message.sendFromUrl(`${data[0].url}`, {caption: "*zetaahhhh👀*"})
+await message.sendFromUrl(`${data[0].url}`, {caption: "*𝗜𝗭𝗨𝗠𝗜🧚‍♂️*"})
 });
-// Zeta-XD
+// Izumi-xd
 
 /*command(
   {
