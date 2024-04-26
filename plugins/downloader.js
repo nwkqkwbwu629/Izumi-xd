@@ -6,7 +6,7 @@ const axios = require("axios");
 const X = require("../config");
 
 
-command(
+/*command(
     {
         pattern: "song",
         fromMe: isPrivate,
@@ -23,7 +23,7 @@ await message.client.sendMessage(message.jid, { audio :zeta,  mimetype:"audio/mp
     }
     );
 
-// ZETA BRO //
+// ZETA BRO*/
 
 command(
     {
@@ -39,7 +39,7 @@ await message.client.sendMessage(message.jid, { text: `*_Downloading ${result.ti
 return await message.sendFromUrl(result.url, { caption: `*${result.title}*` }, {quoted: message })
     });
 
-// Zeta-XD 
+ Zeta-XD //
 
 command(
     {
