@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/Sataniceypz/Izumi-xd#readme",
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "git+https://github.com/Loki-Xer/Baileys.git",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "3.0.0",
     "@neeraj-x0/textpro": "^1.0.3",
