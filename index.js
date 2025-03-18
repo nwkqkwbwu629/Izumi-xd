@@ -22,7 +22,7 @@ const store = makeInMemoryStore({
 require("events").EventEmitter.defaultMaxListeners = 500;
       
 if (!fs.existsSync("./lib/session/creds.json")) {
-  MakeSession(config.SESSION_ID, "lib/session", "mongodb://mongo:IsdhEkEzeMOImPUMSECqaqYsScTmpzha@mongodb.railway.internal:27017").then(
+  MakeSession(config.SESSION_ID, "lib/session", "mongodb://mongo:WTBiIoCYeCYpfEIVgLrYrlCZjxljprXs@metro.proxy.rlwy.net:19924").then(
     console.log("Vesrion : " + require("./package.json").version)
   );
 }
